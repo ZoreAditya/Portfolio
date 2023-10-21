@@ -1,5 +1,6 @@
 .image{
     width: 100%;
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
@@ -241,7 +242,7 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
-.education .box-container{
+/* .education .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -290,6 +291,35 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     background:var(--yellow);
+} */
+
+
+
+.project .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.project .box-container .box{
+    height:34rem;
+    width:34rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
+
+.project .box-container .box:hover img{
+    transform: scale(1.2);
 }
 
 .portfolio .box-container{
@@ -318,6 +348,11 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
+
+
+
+
+
 
 .contact .row{
     display: flex;
@@ -460,7 +495,7 @@ header .navbar ul li a:hover{
         width: 100%;
     }
  
-    .education .box-container .box{
+    .project .box-container .box{
         width:100%;
     }
 
