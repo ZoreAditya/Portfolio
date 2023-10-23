@@ -1,8 +1,9 @@
 # Portfolio⚡️
 A clean, beautiful, responsive portfolio template for Software Developers!<br>
-Link:
+# Link: 
+https://zoreaditya.github.io/Portfolio/
 # Website Preview
-
+https://github.com/ZoreAditya/Portfolio/assets/113139336/4c70b668-90c7-4de4-a8a3-bcb8d06cf3c1
 
 
 # Features 📋
