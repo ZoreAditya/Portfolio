@@ -47,6 +47,11 @@ $(document).ready(function(){
     window.open("https://github.com/ZoreAditya/Desktop-Voice-Assistant")
   })
 
+  const pr4=document.getElementById("pr-4")
+  const bt4=pr4.addEventListener("click",()=>{
+    window.open("https://github.com/ZoreAditya/Calculator")
+  })
+
   // const pr3=document.getElementById("pr-3")
   // const bt3=pr3.addEventListener("click",()=>{
   //   window.open("https://zoreaditya.github.io/Desktop-Voice-Assistant/")
