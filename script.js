@@ -45,7 +45,18 @@ $(document).ready(function(){
   const pr2=document.getElementById("pr-2")
   const bt2=pr2.addEventListener("click",()=>{
     window.open("https://github.com/ZoreAditya/Desktop-Voice-Assistant")
+
+
   })
+
+  const pr3=document.getElementById("pr-3")
+  const bt3=pr3.addEventListener("click",()=>{
+    window.open("https://github.com/ZoreAditya/Student-Corner")
+
+
+  })
+
+  
 
   const pr4=document.getElementById("pr-4")
   const bt4=pr4.addEventListener("click",()=>{

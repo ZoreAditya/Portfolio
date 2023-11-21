@@ -298,7 +298,7 @@ header .navbar ul li a:hover{
 .project .box-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     padding:2rem 0;
 }
@@ -315,7 +315,7 @@ header .navbar ul li a:hover{
 .project .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: fill;
+    object-fit: transition;
 }
 
 .project .box-container .box:hover img{
